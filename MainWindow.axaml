@@ -1,0 +1,214 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Agents.MainWindow"
+        Title="Agents">
+	<ScrollViewer>
+		<Grid
+		 ColumnDefinitions="*, *, *"
+		 RowDefinitions="100,*">
+			<StackPanel
+				Orientation="Vertical"
+			  Grid.Row="0"
+				HorizontalAlignment="Left"
+			  Grid.Column="1">
+				<TextBlock
+					Text="Поисковая строка">
+				</TextBlock>
+				<TextBox
+					Name="search"
+					KeyUp="TextBox_KeyUp"
+					Width="250"
+					Height="30">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+			  Grid.Row="0"
+			  Grid.Column="0">
+				<Button
+				  Width="150"
+				  Content="Добавить агента"
+				  Click="Add_Click">
+				</Button>
+				<TextBlock
+					Text="Фильтры">
+				</TextBlock>
+				<ComboBox
+					SelectionChanged="Filter_SelectionChanged"
+					Name="typesCmb">
+					<ComboBoxItem>
+						Редкий
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Постоянный
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Все типы
+					</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			
+			<StackPanel
+				Orientation="Vertical"
+			  Grid.Row="0"
+				HorizontalAlignment="Left"
+			  Grid.Column="2">
+				<TextBlock
+					Text="Сортировки">
+				</TextBlock>
+				<ComboBox
+					SelectionChanged="Sort_SelectionChanged"
+					Name="sortsCmb">
+					<ComboBoxItem>
+						Наименование А-Я
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Наименование Я-А
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Размер скидки по возрастанию
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Размер скидки по убыванию
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Приоритет по возрастанию
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Приоритет по убыванию
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Сброс сортировки
+					</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			<StackPanel
+				Grid.Row="1"
+				Grid.Column="0"
+				Grid.ColumnSpan="3">
+				<ListBox
+					SelectionChanged="ListBox_SelectionChanged"
+					Background="AliceBlue"
+					Name="agentsList">
+					<ListBox.ItemTemplate>
+						<DataTemplate
+						   x:CompileBindings="False">
+							<Grid
+								Background="{Binding Color}"
+								ColumnDefinitions="150, 500, 150, 100">
+								<StackPanel
+									Grid.Column="0">
+									<Image
+										Source="{Binding bitmap}"
+										Height="100"
+										Width="100"
+										Name="logo">
+									</Image>
+								</StackPanel>
+								<StackPanel
+									Orientation="Vertical"
+									Grid.Column="1">
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="id ">
+										</TextBlock>
+										<TextBlock
+											Text="{Binding IdAgent}"
+											Name="idComp">
+										</TextBlock>
+									</StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="{Binding IdTypeNavigation.NameType}">
+										</TextBlock>
+										<TextBlock
+											Text=" | ">
+										</TextBlock>
+										<TextBlock
+											Text="{Binding Name}">
+										</TextBlock>
+									</StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="{Binding allAmount}"
+											Name="amountAg">
+										</TextBlock>
+										<TextBlock
+												Text=" продаж за год">
+										</TextBlock>
+									</StackPanel>
+										<TextBlock
+											Text="{Binding Phone}"
+											Name="phoneAg">
+										</TextBlock>
+									<TextBlock
+											Text="{Binding IdPriorityNavigation.NamePr}"
+											Name="priorAg">
+									</TextBlock>
+									
+									<StackPanel
+									 Orientation="Horizontal">
+										<TextBlock
+											Text="Mail ">
+										</TextBlock>
+										<TextBlock
+											Text="{Binding Email}"
+											Name="mailAg">
+										</TextBlock>
+									</StackPanel>
+								</StackPanel>
+								<StackPanel
+								Orientation="Horizontal"
+								VerticalAlignment="Center"
+								Grid.Column="2">
+									<TextBlock
+										Text="Размер скидки ">
+									</TextBlock>
+									<TextBlock
+										Text="{Binding IdDiscountNavigation.NameDisc}"
+										Name="discAg">
+									</TextBlock>
+								</StackPanel>
+								<StackPanel
+									VerticalAlignment="Center"
+									Grid.Column="3">
+									<Button
+										Name="btnPr"
+										Tag="{Binding IdAgent}"
+										Click="Delete_Click"
+										Content="Удалить">
+									</Button>
+								</StackPanel>
+
+							</Grid>
+
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+				<StackPanel
+					Orientation="Horizontal">
+					<Button
+						Name="prevBtn"
+						Click="Prev_Click"
+						Content="На предыдущую" >
+					</Button>
+					<Button
+						Name="nextBtn"
+						Click="Next_Click"
+						Content="На следующую" >
+					</Button>
+					<StackPanel
+						Name="pagesStackPan">
+						<Button>
+						</Button>
+					</StackPanel>
+				</StackPanel>
+			</StackPanel>
+		</Grid>
+	</ScrollViewer>
+</Window>

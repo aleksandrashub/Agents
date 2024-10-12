@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Agents\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\addagent.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:addagent.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\addagent.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:addagent.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\models\\tochkaprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:models\\tochkaprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\models\\agpriorchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:models\\agpriorchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\context\\myprojcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:context\\myprojcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|c:\\users\\hp\\source\\repos\\agents\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5AF24F-EF9E-4BDD-AC81-2889B6820C65}|Agents.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddAgent.axaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\AddAgent.axaml",
+              "RelativeDocumentMoniker": "AddAgent.axaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\AddAgent.axaml",
+              "RelativeToolTip": "AddAgent.axaml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwHkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-08T18:45:34.472Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddAgent.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\AddAgent.axaml.cs",
+              "RelativeDocumentMoniker": "AddAgent.axaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\AddAgent.axaml.cs",
+              "RelativeToolTip": "AddAgent.axaml.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAQwLEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T18:45:34.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\Sale.cs",
+              "RelativeToolTip": "Models\\Sale.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:40:24.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Helper.cs",
+              "RelativeDocumentMoniker": "Helper.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Helper.cs",
+              "RelativeToolTip": "Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:54:12.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyprojContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Context\\MyprojContext.cs",
+              "RelativeDocumentMoniker": "Context\\MyprojContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Context\\MyprojContext.cs",
+              "RelativeToolTip": "Context\\MyprojContext.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAADwv8cAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:51:48.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\Agent.cs",
+              "RelativeDocumentMoniker": "Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\Agent.cs",
+              "RelativeToolTip": "Models\\Agent.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:49:33.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MainWindow.axaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\MainWindow.axaml",
+              "RelativeToolTip": "MainWindow.axaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T09:32:37.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\MainWindow.axaml.cs",
+              "RelativeToolTip": "MainWindow.axaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwEcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T09:32:34.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TochkaProd.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\TochkaProd.cs",
+              "RelativeDocumentMoniker": "Models\\TochkaProd.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\TochkaProd.cs",
+              "RelativeToolTip": "Models\\TochkaProd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:45:48.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgPriorChange.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\AgPriorChange.cs",
+              "RelativeDocumentMoniker": "Models\\AgPriorChange.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\AgPriorChange.cs",
+              "RelativeToolTip": "Models\\AgPriorChange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:26:57.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Agents\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:55:04.145Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

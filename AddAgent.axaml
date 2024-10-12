@@ -1,0 +1,185 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Agents.AddAgent"
+        Title="AddAgent"
+		x:CompileBindings="False">
+	<Grid
+	   ColumnDefinitions="*, *">
+		<StackPanel
+		  Grid.Column="0">
+			<StackPanel
+				Orientation="Vertical">
+				<Button
+					Click="Back_Click"
+					Content="К списку">
+				</Button>
+				<TextBlock
+					Text="Наименование компании">
+				</TextBlock>
+				<TextBox
+					Name="nameComp">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+			   Orientation="Vertical">
+				<TextBlock
+					Text="Адрес компании">
+				</TextBlock>
+				<TextBox
+					Name="addressComp">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+			   Orientation="Vertical">
+				<TextBlock
+					Text="ИНН компании">
+				</TextBlock>
+				<TextBox
+					Name="innComp">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+			  Orientation="Vertical">
+				<TextBlock
+					Text="КПП компании">
+				</TextBlock>
+				<TextBox
+					Name="kppComp">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+			  Orientation="Vertical">
+				<TextBlock
+					Text="ФИО директора компании">
+				</TextBlock>
+				<TextBox
+					Name="fioDirComp">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+			  Orientation="Vertical">
+				<TextBlock
+					Text="Телефон компании">
+				</TextBlock>
+				<MaskedTextBox
+				Name="phoneComp"
+				Height="40"
+				Width="250"
+				Mask="0(000)000-00-00">
+				</MaskedTextBox>
+			</StackPanel>
+			<StackPanel
+			 Orientation="Vertical">
+				<TextBlock
+					Text="Email компании">
+				</TextBlock>
+				<TextBox
+					Name="mailComp">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+		 Orientation="Horizontal">
+				<TextBlock
+					Text="Продаж компании">
+				</TextBlock>
+				<TextBlock
+					Name="amountComp">
+				</TextBlock>
+			</StackPanel>
+			<StackPanel
+				Grid.Column="0"
+			Orientation="Vertical">
+				<Button
+				  Width="150"
+				  Content="Готово"
+				  Click="Ok_Click">
+				</Button>
+			</StackPanel>
+		</StackPanel>
+		<StackPanel
+			Grid.Column="1">
+			<TextBlock
+			  Text="Тип агента:">
+			</TextBlock>
+			<ComboBox
+				Name="typeAgCmb">
+			</ComboBox>
+			<TextBlock
+			   Text="Приоритет агента:">
+			</TextBlock>
+			<ComboBox
+				SelectionChanged="PriorChanged_SelectionChanged"
+				  Name="priorAgCmb">
+			</ComboBox>
+			<TextBlock
+				Margin="0,5,0,0"
+				Text="Реализация агента">
+			</TextBlock>
+			<TextBlock
+				Text="Поиск по названию">
+			</TextBlock>
+			<TextBox
+				HorizontalAlignment="Left"
+				Name="search"
+				KeyUp="TextBox_KeyUp"
+				Width="150"
+				Height="30">
+			</TextBox>
+			<ListBox
+				Name="salesList">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<StackPanel
+							Orientation="Horizontal">
+							<TextBlock
+								Text="{Binding IdProductNavigation.NameProduct}">
+							</TextBlock>
+							<TextBlock
+								Margin="5,0,5,0"
+								Text="{Binding Amount}">
+							</TextBlock>
+							<TextBlock
+								Text="{Binding Date}">
+							</TextBlock>
+							<Button
+								Tag="{Binding IdSale}"
+								Click="Delete_Click"
+								Content="Удалить">
+							</Button>
+						</StackPanel>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			<TextBlock
+				Text="Добавить реализацию:">
+			</TextBlock>
+			<StackPanel
+				Orientation="Horizontal">
+				<ComboBox
+					Name="prodCmb">
+				</ComboBox>
+				<TextBox
+					Name="amountReal"
+					Watermark="Введите количество единиц">
+				</TextBox>
+			</StackPanel>
+			<Button
+				Click="AddReal_Click"
+				Content="Добавить реализацию">
+			</Button>
+			<Button
+	   Width="150"
+	   Content="Добавить логотип"
+	   Click="Img_Click">
+			</Button>
+			<Image
+				Height="100"
+				Width="100"
+				Name="img">
+			</Image>
+		</StackPanel>
+	</Grid>
+</Window>
